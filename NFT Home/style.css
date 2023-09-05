@@ -14,7 +14,7 @@
    padding: 0;
    margin: 0;
    background: #2B2B2B !important;
-   overflow-x: hidden;
+   
   }
 
   .navbar {
@@ -148,10 +148,9 @@
     padding-left: 12px;
   }
 .mainphoto {
-    height: 330px;
-    width: 330px;
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 15px;
     flex-shrink: 0;
     border-radius: 20px;
@@ -186,13 +185,13 @@ text-transform: capitalize;
 margin-bottom: 60px;
 }
 .smallbox{
-  
-  justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
   gap: 15px;
   margin-left: 10px;
   margin-top: 15px !important;
   margin-bottom: 15px  !important;
-  
+  width: 100%;
 }
 .minititle{
 color: #FFFFFF !important;
@@ -306,11 +305,8 @@ filter: blur(7.5px) ;
 background:transparent;
 }
 .abs {
-  transform: translate(-50%,-50%);
  
-  left: 150px;
-  right: 70px;
-  bottom: 70px;
+ 
   background-color: transparent !important;
   background: transparent !important;
 }
@@ -325,7 +321,7 @@ background:transparent;
   background-color: #3B3B3B !important;
 /* H5 - Work Sans */
 font-family: "WorkSans-SemiBold600" ;
-font-size: 22px;
+font-size: 19px;
 font-style: normal;
 font-weight: 600;
 line-height: 140%; /* 30.8px */
@@ -452,6 +448,7 @@ height: 24px;
   background: transparent;
   position: relative;
   margin-top: 80px !important;
+  width: 100%;
 }
 
 .banertext{
@@ -700,7 +697,7 @@ line-height: 140%; /* 22.4px */
 @media screen  and (max-width:768px){
   .contentcontainer {
     
-    margin: 40px 60px;
+    margin: 30px 60px;
      
   }
   .home1 {
@@ -771,31 +768,11 @@ line-height: 140%; /* 22.4px */
 
   }
   .mainphoto {
-    height: 60vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-shrink: 0;
-    border-radius: 20px;
+    
     
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-.abs {
- 
-  .abs {
-    transform: translate(-50%,-50%);
-   
-    left: 150px;
-    right: 70px;
-    bottom: 70px;
-    background-color: transparent !important;
-    background: transparent !important;
-  }
-  
-  background-color: transparent !important;
-  background: transparent !important;
-}
+
 .profileforms {
  
   height: 130px;
@@ -852,7 +829,7 @@ line-height: 140%; /* 22.4px */
  
 }
 .container1 {
-  padding: 60px;
+  padding:0px 60px ;
   border-radius: 20px !important;
   column-gap: 100px;
   
@@ -988,7 +965,7 @@ padding: 15px 20px 0px 20px;
 @media screen  and (min-width:768px){
   .contentcontainer{
     
-    margin:80px 115px ;
+    margin:60px 115px ;
     
   }
   .container1 {
